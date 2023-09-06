@@ -1,0 +1,44 @@
+.title {
+  margin: 0;
+}
+
+.buttonDiv button {
+  background-color: rgba(0, 0, 207, 0.863);
+  color: white;
+  margin: 20px 10px 10px 10px;
+  height: 35px;
+  border-radius: 6px;
+  border-width: 0;
+  padding: 0 15px 0 15px;
+  font-size: 15px;
+}
+.buttonDiv button:hover {
+  background-color: rgba(0, 0, 126, 0.863);
+}
+
+.resultComponent {
+  display: flex;
+}
+.deleteTag {
+  margin-left: auto;
+  margin-right: 20%;
+  color: rgb(255, 57, 57);
+}
+.deleteTagOn:hover {
+  cursor: pointer;
+  text-decoration-line: underline;
+}
+.deleteTagOn {
+  fill: rgb(255, 57, 57);
+}
+.deleteTagOff {
+  fill: rgb(136, 136, 136);
+}
+.dataBlock {
+  display: flex;
+  flex-grow: 1;
+}
+.dataBlock div {
+  margin-left: 50px;
+  width: 150px;
+}

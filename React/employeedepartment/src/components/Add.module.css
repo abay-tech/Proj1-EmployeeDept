@@ -1,0 +1,48 @@
+.popUpBackGround{
+    background-color: rgba(83, 83, 83, 0.685);
+    height: 100%;
+    width:100%;
+    position: fixed;
+}
+.popUp{
+    text-align: center;
+    width:500px;
+    background-color: white;
+    position: fixed;
+    top: 20%;
+    left:35%;
+    border-radius: 8px;
+    padding: 10px;
+}
+.popUp h3{
+    margin-top: 0px;
+}
+.dataArea{
+    display:flex;
+    flex-grow:1;
+    justify-content: space-between;
+    align-items: center;    
+}
+.inputBox{
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 3px;
+    height: 30px;
+    margin-top: 10px;
+    width: 300px;
+    font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+.buttonSet{
+   margin-bottom:10px
+}
+.popUp button{
+    background-color: rgb(160, 14, 82);
+    color: aliceblue;
+    padding: 8px 18px 8px 18px;
+    border-style: none;
+    border-radius: 6px;
+    margin: 10px;
+    font-size: 14px;
+}
